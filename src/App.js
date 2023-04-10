@@ -1,17 +1,12 @@
-import './App.css';
+import "./App.css";
+import Simpleform from "./Component/Simpleform";
 
 function App() {
   return (
-<div className="App">
-<form>
-      <label>
-        Name:
-        <input type="text"  />
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+    <div className="App">
+      <Simpleform />
     </div>
- );
+  );
 }
 
 export default App;
