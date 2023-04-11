@@ -1,5 +1,5 @@
 import "./App.css";
-import Counter from "./Component/Simplecounter";
+import Counter from "./Component/Counter";
 
 function App() {
   let name = "Dolly";
