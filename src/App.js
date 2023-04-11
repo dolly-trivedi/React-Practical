@@ -1,10 +1,11 @@
 import "./App.css";
-import Simpleform from "./Component/Simpleform";
+import Counter from "./Component/Simplecounter";
 
 function App() {
+  let name = "Dolly";
   return (
     <div className="App">
-      <Simpleform />
+      <Counter name={name} />
     </div>
   );
 }
